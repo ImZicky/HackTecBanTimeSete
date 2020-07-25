@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HackTecBanTimeSete</name>
+    </assembly>
+    <members>
+        <member name="M:HackTecBanTimeSete.Controllers.LoginController.GetTokenLogin(HackTecBanTimeSete.DTO.UsuarioLoginDTO)">
+            <summary> Aqui vc faz o login no sistema e de quebra ainda pega um Bearer Token JWT, meu consagrado :P </summary>
+            <param name="user"></param>
+            <returns> O DTO (Data Transfer Object) de UsuarioLoginDTO</returns>
+            <response code="200">Sucesso (GGWP)</response>
+        </member>
+        <member name="M:HackTecBanTimeSete.Controllers.UsuarioController.GetUsuarioBanco">
+            <response code="401">Não falo com bandeirantes... Vc não está autorizado à essa requisição...</response>
+        </member>
+    </members>
+</doc>
